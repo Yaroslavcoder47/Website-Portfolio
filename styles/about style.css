@@ -1,0 +1,61 @@
+body{
+	display: flex;
+	flex-direction: column;
+}
+/*фиксируем шапку при прокрутке страницы*/
+.head{
+	position: fixed;
+	height: 80px;
+	margin-top: -8px;
+	margin-left: -6px;
+	display: flex;
+	justify-content: space-around;
+	background-color: white;
+	width: 100.3%;
+}
+/*задаем размеры и расположение основного контента*/
+main{
+	background-color: #F6E8E7;
+	width: 100.3%;
+	height: auto;
+	margin-top: 72px;
+	margin-left: -6px;
+	margin-bottom: -5px;
+	padding-left: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+/*текст обо мне, подобраны шрифт, размер*/
+p.about-me{
+	height: auto;
+	color: #3D2626;
+	font-family: VERDANA;
+	width: 80%;
+}
+/*2 мои фотографии*/
+.myphoto{
+	display: flex;
+	justify-content: left;
+}
+.photo{
+	height: 400px;
+	margin-right: 10px;
+}
+/*список языков*/
+ul{
+	height: auto;
+	font-size: 24px;
+	color: black;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/*ссылка на страницу проектов*/
+.on-projects{
+	color: #2747C0;
+	font-family: VERDANA;
+	text-decoration: none;
+	height: auto;
+}

@@ -1,0 +1,61 @@
+body{
+	display: flex;
+	flex-direction: column;
+}
+/*блок с логотипом и кнопками*/
+.head{
+	height: 80px;
+	margin-top: -8px;
+	margin-left: -6px;
+	display: flex;
+	justify-content: space-around;
+	background-color: white;
+	width: 100.3%;
+}
+/*блок на картинку для логотипа, картинка выровнена по центру блока*/
+#logotip{
+	background-color: #f3f3f3;
+	height: 80px;
+	width: 120px;
+}
+/*кнопки навигации*/
+.buttons{
+	height: 80px;
+	width: 620px;
+	display: flex;
+}
+/*ссылки на другие страницы в кнопках навигации*/
+a.head-link{
+	text-decoration: none;
+	color: black;
+	height: 40px;
+	width: 150px;
+	padding-right: 5px;
+}
+/*текст на кнопках навигации*/
+p.menu{
+	text-align: center;
+	width: 150px;
+	height: 40px;
+	padding-top: 12px;
+	font-size: 22px;
+}
+/*текст на кнопках навигации при наведении*/
+p.menu:hover{
+	background-color: #ECF3F2;
+}
+/*главный текст*/
+.text{
+	font-family: IMPACT;
+	font-size: 50px;
+}
+/*настройка расположения картинки и главного текста*/
+.main-content{
+	width: 100.3%;
+	display: flex;
+	justify-content: space-around;
+	margin-left: -6px;
+	margin-bottom: -5px;
+	margin-top: 50px;
+	padding-left: 10px;
+}

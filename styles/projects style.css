@@ -1,0 +1,41 @@
+body{
+	display: flex;
+	flex-direction: column;
+}
+.head{
+	position: fixed;
+}
+main{
+	background-color: #E7E7F6;
+	width: 100.3%;
+	height: auto;
+	margin-top: 72px;
+	margin-left: -6px;
+	margin-bottom: -5px;
+	padding-left: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.photo-robot{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+p.about-projects{
+	height: auto;
+	font-family: VERDANA;
+	width: 80%;
+	
+}
+.photo-bot{
+	display: flex;
+	justify-content: left;
+	align-items: flex-end;
+}
+a{
+	text-decoration: none;
+}
+img{
+	width: auto;
+}
